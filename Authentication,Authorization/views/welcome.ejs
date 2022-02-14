@@ -1,0 +1,11 @@
+<%- include('includes/head.ejs', { title: 'Welcome' }) %>
+</head>
+<body>
+  <%- include('includes/header.ejs') %>
+  <main>
+    <h1>Authentication vs Authorization</h1>
+    <p>Admin User is only available to access <a href="/admin">Admin Page</a></p>
+    <p><a href="/profile">Profile Page</a> is available for <a href="login">Login User.</a></p>
+  </main>
+</body>
+</html>
