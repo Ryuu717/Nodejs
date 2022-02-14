@@ -1,0 +1,20 @@
+<%- include("../../includes/head", {pageTitle: "cart"}) %>
+<link rel="stylesheet" href="/styles/cart.css">
+<script></script>
+</head>
+
+<body>
+    <%- include('../../includes/header') %>
+    <main>
+        <h1>Your cart</h1>
+        <ul id="cart-items">
+            <li>
+                <%- include("single-cart-item")  %> 
+            </li>
+        </ul>
+        <div id="cart-total">
+            <p>Total Price</p>
+            <button class="btn">Buy Product</button>
+        </div>
+    </main>
+<%- include("../../includes/footer") %> 
